@@ -1,0 +1,9 @@
+p:first-child {
+    color: #ff592e;
+    transition: background-color 2s linear 0.5s;
+}
+
+p:first-child:hover {
+    color: #ff002f;
+    background-color: #b9ff25;
+}
