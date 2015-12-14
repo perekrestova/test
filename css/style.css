@@ -7,10 +7,6 @@ html, body {
     padding-bottom: 100px;
     box-sizing: border-box;
 }
-#footer {
-    height: 100px;
-    margin-top: -100px;
-}
 p {
     margin-bottom: 5px;
 }
@@ -40,11 +36,10 @@ p {
     width: 100%;
 }
 #header {
-    /*height: 100px;*/
     width: 100%;
     background: #C7BDBF;
 }
-#name_comp {
+#name_comp_verh {
     background: #FADD05;
     width: 170px;
     float: left;
@@ -112,7 +107,7 @@ p {
 #about_comp {
     float: left;
     background: #C4C4A9;
-    width: 350px;
+    width: 300px;
     display: inline-block;
     margin: 20px 30px 20px 20px;
     color: #FA0707;
@@ -121,7 +116,36 @@ p {
     vertical-align: top;
 }
 #footer {
-    width: 100%;
+    height: 100px;
+    margin-top: -100px;
     background: #595858;
-
+}
+#years {
+    width: 170px;
+    float: left;
+    margin: 20px 50px 20px 100px;
+    color: #C7DBCF;
+}
+#menu_niz {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100px;
+}
+#menu_niz a {
+    color: #CE2CB2;
+    text-decoration: none;
+    font-weight: 200;
+    display: inline-block;
+    padding: 5px;
+}
+#menu_niz a:hover {
+    color: #11F224;
+    border-bottom: 1px solid #000000;
+}
+#name_comp_niz {
+    background: #FADD05;
+    width: 170px;
+    float: left;
+    margin: 20px 50px 20px 100px;
 }
