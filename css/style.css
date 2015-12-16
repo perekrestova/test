@@ -116,8 +116,8 @@ p {
     vertical-align: top;
 }
 .footer_wrapper {
-    height: 100px;
-    margin-top: -100px;
+    height: 120px;
+    margin-top: -120px;
     background: #595858;
 }
 .years_comp {
@@ -129,9 +129,9 @@ p {
     font-size: small;
 }
 .menu_niz {
-    width: 100px;
-    padding-top: 25px;
-    margin-left: 50px;
+    width: 170px;
+    padding-top: 12px;
+    margin-left: 40px;
     float: left;
     color: #ffffff;
     font-size: small;
@@ -139,7 +139,20 @@ p {
 .name_comp_niz {
     width: 170px;
     padding-top: 25px;
-    margin-left: 500px;
+    margin-left: 570px;
     background: #FADD05;
     height: 58px;
+}
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 200;
+    padding: 1px;
+}
+.menu a:hover {
+    color: #11F224;
+    border-bottom: 1px solid #000000;
+}
+li {
+    list-style-type: none;
 }
